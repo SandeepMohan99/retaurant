@@ -1,0 +1,213 @@
+*{
+    margin: 1px;
+    padding: 5px;
+
+}
+
+#container{
+
+    width: 100%;
+    height: 91vh;
+     background-color: white; 
+     background-image: url("./slide1.jpg"); 
+     background-repeat: no-repeat; 
+     background-size: 100% 100%;
+     
+
+}
+
+.interior1 img{
+
+    width: 100px;
+    height: 10px;
+    
+} 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    align-items: center;
+    width: 90%;
+    position: absolute;
+    
+}
+
+html{
+    scroll-behavior: smooth;/* to give a smooth transion when we click anything on navbar */
+}
+
+.link1{
+    display: inline-block;
+}
+
+.logo{
+    width: 150px;
+
+}
+
+.item{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+
+.title{
+    margin-top: 100px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    
+}
+
+.titlep1{
+
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 40px;
+}
+
+#middle{
+    background-image: url("./slide3.jpg");
+}
+
+.titleh1{
+   
+  font-size: 30px;
+  text-align: center;
+
+}
+.interior2 img{
+
+    width: 600px;
+    height: 400px;
+    
+}
+
+#middle2{
+    height: 500px;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0px;
+    background-image: url("./tomatos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.m2{
+    margin-top: 50px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+
+}
+
+.h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.para1{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+
+}
+
+.a1{
+    background-image: url("./img1.jpg");
+    background-size: cover;
+}
+
+.a2{
+    background-image: url("./img2.jpg");
+    background-size: cover;
+}
+
+.a3{
+    background-image: url("./img3.jpg");
+    background-size: cover;
+}
+
+.button{
+    background-color: darkgreen;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 30px;  
+}
+
+#middle3{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.b2{
+    margin-top: 40px;
+    text-align: center;
+    color:white;  
+}
+
+
+.b1{
+    background-image: url("./slide2.jpg");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-attachment: fixed;
+    
+} 
+
+
+.fh{
+    font-size: 20px;
+    font-weight: 20px;
+    text-align: center;
+}
+
+.fc{
+    text-align: center;
+    font-size: 20px;
+   
+}
+
+.icon-set{
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center;     /* vertically center */
+    margin-top: 3%;          
+}
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0f3b02;
+    color: white;
+}
+
+#middle4{
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.icon:hover{
+    background-image: linear-gradient(to bottom right, yellow, red);/* to give dual colouring */
+}
+
+.up-arrow{
+
+    float: right;
+    background-image: linear-gradient(to bottom right, yellow, red);/* to give dual colouring */
+    margin: 0px 10px 50px 8px;
+}
+
+.up-arrow:hover i{
+    color: white;
+
+}
+
